@@ -1,10 +1,10 @@
 # OpenAI-Image-Generation-NodeJs
 
-1. Create an Account on Open Ai - https://openai.com/
-2. Create Secret API Key - https://platform.openai.com/api-keys
+1. Create an Account on Open Ai - [Click here](https://openai.com/)
+2. Create Secret API Key - [Click to create api-key](https://platform.openai.com/api-keys)
 
 ### How to Generate Image using OpenAI 
-Documentation:https://platform.openai.com/docs/guides/images?lang=node.js&adobe_mc=MCMID%3D60047592739492077280307194424969051085%7CMCORGID%3DA8833BC75245AF9E0A490D4D%2540AdobeOrg%7CTS%3D1701353004&context=node
+Documentation: [Image Generation Doc](https://platform.openai.com/docs/guides/images?lang=node.js&adobe_mc=MCMID%3D60047592739492077280307194424969051085%7CMCORGID%3DA8833BC75245AF9E0A490D4D%2540AdobeOrg%7CTS%3D1701353004&context=node) 
 
 The Images API provides three methods for interacting with images:
 
