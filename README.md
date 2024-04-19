@@ -32,4 +32,4 @@ response-body
 }
 ```
 
-
+## Image Model - Price
