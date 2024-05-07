@@ -1,0 +1,20 @@
+{
+  "name": "openai-image-generation-nodejs",
+  "version": "1.0.0",
+  "description": "1. Create an Account on Open Ai - [Click here](https://openai.com/) 2. Create Secret API Key - [Click here to create api-key](https://platform.openai.com/api-keys)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon run src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aasif",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.42.0"
+  }
+}
