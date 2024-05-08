@@ -7,9 +7,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+app.use(express.static('src/public'));
+
 const PORT = process.env.PORT;
-
-
 
 app.listen(PORT,()=>{
     console.log(`Listening on port:`, PORT);
