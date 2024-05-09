@@ -1,13 +1,15 @@
 import express from "express";
 import cors from "cors";
 import 'dotenv/config'
-import OpenAI from "openai";
+// import aiRoutes from "./routes/aiRoutes";
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
 app.use(express.static('src/public'));
+
+// app.use('/image', aiRoute);
 
 const PORT = process.env.PORT;
 
