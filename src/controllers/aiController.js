@@ -2,9 +2,10 @@ import OpenAI from "openai";
 
 const generateImage = async function(req, res){
     try {
-        res.sendJson({'ok':'200'})
+        console.log('here');
+        res.status(200).json({'ok':'200'})
     } catch (error) {
-        
+        console.log('err',error);
     }
 }
 
