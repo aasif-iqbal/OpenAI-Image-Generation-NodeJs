@@ -1,0 +1,21 @@
+body {
+    background-color: #212121;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ai-text {
+    color: #F7F7F8
+}
+
+.ai-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    background-color: blue;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    /* padding-right: 10px; */
+}

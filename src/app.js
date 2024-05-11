@@ -4,6 +4,7 @@ import 'dotenv/config'
 import aiRoute from "./routes/aiRoutes.js";
 
 const app = express();
+
 app.use(express.json());
 app.use(cors());
 
