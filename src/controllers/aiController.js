@@ -7,7 +7,7 @@ const openai = new OpenAI({
 const generateImage = async function(req, res){
 
     const prompt = req.body.prompt;
-    console.log('req-here',prompt);
+    // console.log('req-here',prompt);
     try{
       const response = await openai.images.generate({
           model:'dall-e-3',
@@ -16,7 +16,7 @@ const generateImage = async function(req, res){
           size:"1024x1024"
       });
       image_url = response.data.data[0].url;      
-      console.log(image_url);
+      // console.log(image_url);
       res.send(image_url);
     }catch(err){
       console.log(err);
